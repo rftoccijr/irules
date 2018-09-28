@@ -1,0 +1,77 @@
+body {
+    background-color: #252525;
+    text-align: center;
+}
+p2 {
+    color: #8ec301;
+}
+#container {
+
+}
+.leds {
+float: left;
+display: inline-block;
+vertical-align: top;
+}
+.greenled {
+    margin: 20px auto;
+    width: 12px;
+    height: 35px;
+    background-color: #333a2a;
+    box-shadow: #000 0 -1px 7px 1px, inset #23241e 0 -1px 9px, #1f1f1f 0 2px 12px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 75%;
+    left:  25%;
+}
+.redactiveled {
+    margin: 20px auto;
+    width: 12px;
+    height: 35px;
+    background-color: #c43e3b;
+    box-shadow: #000 0 -1px 7px 1px, inset #600 0 -1px 9px, #F00 0 2px 12px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 73%;
+    left: 27%;
+}
+.flip {
+ border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 20px;
+  width: 40%;
+  margin: 50px auto;
+  background: #111111;
+  color: white;
+  font-size: 250%;
+  font-family: "Courier", Georgia, Serif;
+  text-shadow: 1px 1px 2px #111111;
+    position: relative;
+   font-weight: 900;
+   z-index: -1;
+}
+.break {
+}
+.sorry {    
+    color: grey;
+    font-family: "Courier", Georgia, Serif;
+    font-size: 125%;
+}
+.beasts {
+
+}
+.footer {
+    color: grey;
+    font-family: "Courier", Georgia, Serif;
+    font-size: 110%;
+}
+.oatmeal {
+    color: grey;
+    font-family: "Courier", Georgia, Serif;
+    font-size: 90%;
+}    
+}
